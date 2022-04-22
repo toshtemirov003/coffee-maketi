@@ -1,0 +1,27 @@
+.site-primary-link {
+    display: inline-block;
+    padding: 15px 31px;
+    font-family: 'Fraunces';
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #FEFCF7;
+    background-color: #0E8784;
+    border-radius: 6px;
+    &:hover{
+       color: #000;
+       background-color: #d3d3d2;
+   }
+   @media only screen and (max-width: 440px){
+        & {
+            max-width: 180px;
+            display: inline-block;
+            padding: 10px 5px 10px 5px; 
+            font-weight: 900;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+        }
+    }
+}

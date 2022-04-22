@@ -1,0 +1,52 @@
+.order-summary {
+    padding: 31px 64px 27px 64px;
+    margin-top: 88px;
+    margin-bottom: 40px;
+    background-color: #000;
+    border-radius: 8px;
+}
+.order-summary__text {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .5;
+}
+.order-summary__text-bolt {
+    width: 602px;
+    padding: 0;
+    margin: 0;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+}
+.our-summary__strong {
+    color: #0e8784;
+}
+@media only screen and (max-width:500px) {
+    .order-summary-section {
+        width: 100%;
+        max-width: 328px;
+    }
+    .order-summary {
+        margin: 0;
+        margin-top: 120px;
+        margin-bottom: 56px;
+        padding: 0;
+        padding: 38px 24px 32px 25px;
+    }
+    .order-summary__text-bolt {
+        width: 100%;
+        max-width: 279px;
+        padding: 0;
+        margin: 0 auto;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+    }
+}

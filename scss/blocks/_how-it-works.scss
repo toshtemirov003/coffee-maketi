@@ -1,0 +1,96 @@
+/* HOW IT WORKS */
+.how-it-works {
+    padding-top: 351px;
+    padding-bottom: 200px;
+    padding-left: 85px;
+}
+.how-it-works__heading {
+    margin-top: 0;
+    margin-bottom: 178px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+.how-it-works__list {
+    display: flex;
+    margin: 0;  
+    margin-bottom: 64px;
+    padding: 0;
+    list-style-type: none;
+    counter-reset: item;
+}
+.how-it-works__item {
+    max-width: 380px;
+    position: relative;
+    z-index: 1;
+    counter-increment: item;
+}
+.how-it-works__item:not(:last-child):before {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    z-index: 1;
+    top: -82px;
+    display: block;
+    background-color: #fdd6ba;
+    content: '';
+}
+.how-it-works__item::after {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    z-index: 1;
+    top: calc(-82px - 15px);
+    background-color: #FEFCF7;
+    border: 1px solid #0E8784;
+    border-radius: 50%;
+    content: '';
+}
+.how-it-works__item:not(:last-child){
+    padding-right: 95px;
+}
+.how-it-works__item-heading{
+    max-width: 25px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 900;
+    color: #333D4B;
+}
+.how-it-works__item-heading::before{
+    display: block;
+    margin-bottom: 38px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    content: '0' counter(item);
+}
+@media only screen and (max-width: 768px){
+    .how-it-works__item-heading{
+        max-width: 223px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .how-it-works__desc{
+        max-width: 223px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .how-it-works__list{
+        display: flex;
+        flex-direction: column;
+    }
+    .how-it-works__item:not(:last-child):before{
+        content: none;
+        background-color: #FEFCF7;
+        border-radius: 0%;
+    }
+}

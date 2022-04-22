@@ -1,0 +1,36 @@
+.about-us-section{
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 85px;
+    margin-bottom: 244px;
+}
+.about-us-section__img{
+    border-radius: 8px;
+    position: cover;
+}
+.about-us-section__text-wrapper{
+    margin-left: 125px;
+}
+.about-us-section__heading{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+.about-us-section__desc{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

@@ -1,0 +1,41 @@
+.about-us-quality{
+    position: relative;
+    z-index: 1;
+    padding-top: 80px;
+    padding-bottom: 178px;
+    margin-bottom: 168px;
+    display: flex;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+.about-us-quality__text-wrapper{
+    max-width: 507px;
+    margin-left: 85px;
+}
+.about-us-quality__heading{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+.about-us-quality__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.about-us-quality__img{
+    position: absolute;
+    z-index: 1;
+    top: -100px;
+    border-radius: 8px;
+}
