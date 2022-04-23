@@ -29,10 +29,10 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
     color: #83888F;
-}
-.site-nav__link:hover{
-    color: lightgreen;
-    transition: color 0.3s ease;
+    &:hover{
+        color: lightgreen;
+        transition: color 0.3s ease;
+    }
 }
 .site-nav__item:not(:last-child) {
     margin-right: 33px;

@@ -42,9 +42,9 @@
     text-align: center;
     background-color: #0e8784;
     border-radius: 8px; 
-}
-.why-choose-us__item:not(:last-child){
-    margin-right: 30px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 .why-choose-us__item-heading {
     margin-top: 0;
@@ -53,25 +53,25 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-}
-.why-choose-us__item-heading::before{
-    display: block;
-    width: 72px;
-    height: 72px;
-    margin: 0 auto;
-    margin-bottom: 56px;
-    background-repeat: no-repeat;
-    content: '';
-}
-.why-choose-us__item-heading--shape::before{
-    background-image: url(../img/coffe-tarif-1.svg);
-}
-.why-choose-us__item-heading--benefits::before{
-    background-image: url(../img/coffe-tarif-2.svg);
-}
-.why-choose-us__item-heading--shupping::before{
-    background-image: url(../img/coffe-tarif-3.svg);
-    background-position: center bottom;
+    &::before{
+        display: block;
+        width: 72px;
+        height: 72px;
+        margin: 0 auto;
+        margin-bottom: 56px;
+        background-repeat: no-repeat;
+        content: '';
+    }
+    &--shape::before{
+        background-image: url(../img/coffe-tarif-1.svg);
+    }
+    &--benefits::before{
+        background-image: url(../img/coffe-tarif-2.svg);
+    }
+    &--shupping::before{
+        background-image: url(../img/coffe-tarif-3.svg);
+        background-position: center bottom;
+    }
 }
 @media only screen and ( max-width: 768px){
     .why-choose-us__heading {
@@ -97,10 +97,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .why-choose-us__item:not(:last-child){
-        margin-left: 30px;
-        margin-bottom: 24px;
+        &:not(:last-child){
+            margin-left: 30px;
+            margin-bottom: 24px;
+        }
     }
     .why-choose-us__item-heading{
         width: 255px;
@@ -130,11 +130,13 @@
         justify-content: center;
         align-items: center;
     }
-    .why-choose-us__item:not(:last-child){
-        margin-left: 30px;
-        margin-bottom: 24px;
-    }
-    .why-choose-us__item:nth-child(3){
-        width: 492px;
+    .why-choose-us__item {
+        &:not(:last-child){
+            margin-left: 30px;
+            margin-bottom: 24px;
+        }
+        &:nth-child(3){
+            width: 492px;
+        }
     }
 }

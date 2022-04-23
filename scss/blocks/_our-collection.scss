@@ -28,9 +28,9 @@
 .our-collection__item {
     max-width: 255px;
     text-align: center;
-}
-.our-collection__item:not(:last-child){
-    margin-right: 30px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 .our-collection__img {
     width: 255px;

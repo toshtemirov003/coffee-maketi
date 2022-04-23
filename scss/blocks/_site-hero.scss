@@ -40,10 +40,10 @@
     color: #FEFCF7;
     background-color: #0E8784;
     border-radius: 6px;
-}
-.site-primary-link:hover{
-    color: #000;
-    background-color: #d3d3d2;
+    &:hover{
+        color: #000;
+        background-color: #d3d3d2;
+    }
 }
 @media only screen and (max-width: 768px){
     .site-hero {
@@ -138,9 +138,9 @@
         top: 100%;
         background-color: rgba(209, 206, 206, 0.2);
         display: none;
-    }
-    .sitenav--open{
-        display: block;
+        &--open{
+            display: block;
+        }
     }
     .sitenav__list{
         flex-direction: column;

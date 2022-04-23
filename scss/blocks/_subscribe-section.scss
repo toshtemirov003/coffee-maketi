@@ -25,10 +25,10 @@
     width: 228px;
     background-color: #f4f1eb;
     border-radius: 8px;
-}
-.subscribe-section__span:hover {
-    background-color: #fdd6ba;
-    transition: .3s;
+    &:hover {
+        background-color: #fdd6ba;
+        transition: .3s;
+    }
 }
 .subscribe-section__card-heading {
     padding: 0;
@@ -48,9 +48,9 @@
     margin: 0;
     font-weight: 400;
     color: #333d4b;
-}
-.subscribe-section__card-text--font {
-    font-size: 17px;
+    &--font {
+        font-size: 17px;
+    }
 }
 .subscribe-section__form-button {
     color: #fff;
@@ -59,10 +59,10 @@
     display: block;
     background-color: #0e8784;
     border-radius: 8px;
-}
-.subscribe-section__form-button:hover {
-    cursor: pointer;
-    background-color: #66d2cf;
+    &:hover {
+        cursor: pointer;
+        background-color: #66d2cf;
+    }
 }
 @media only screen and (max-width:500px) {
     .subscribe-section__heading {
